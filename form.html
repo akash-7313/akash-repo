@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>create Form</title>
+</head>
+<body>
+    
+    <p style="background-color: rgb(78, 11, 22); text-align: center; color: rgb(20, 240, 31); font-size: 30px;">new form </p>
+
+<!--comment
+
+<p>method=post/get</p>
+<br>
+website e keo sensitive information(e.g.credit card information) dile post method use hoy,
+<br>
+website e keo normal information(name,contuct info) dile get method use hoy,
+<br>
+post method use kora valo.
+<br>
+<br>
+action attribute er vitore php page thake, eta php + database diye kora hoy.php page(action attribute) er karone form fillup korle information website owner er kache jai email er maddome.
+<br>
+
+-->
+
+
+<form action="#" method="POST">
+<fieldset>
+<legend>Contuct info</legend>
+First Name:
+<input type="text" placeholder="Enter your first name">
+<br><br>
+Last Name:
+<input type="text" placeholder="Enter your last name">
+<br><br>
+Gender:
+<input type="radio" name="gender">male
+<input type="radio" name="gender">female
+<input type="radio" name="gender">other
+<br><br>
+Religion:
+<input type="radio" name="religion">Islam
+<input type="radio" name="religion">Hindu
+<input type="radio" name="religion">Christian
+<input type="radio" name="religion">other
+<br><br>
+<input type="submit" value="send">
+</fieldset>
+</form>
+
+<!--comment
+
+name er value gender/religion hote hobe emon kono kotha nai.
+<br>
+tobe value sob somoy ek rokom hote hobe.
+
+-->
+
+<p style="background-color: rgb(78, 11, 22); text-align: center; color: rgb(20, 240, 31); font-size: 30px;">new form </p>
+
+<br>
+
+<h2>your fav fruit:</h2>
+<select multiple size="4">
+    <option value="mango">Mango</option>
+    <option value="orange" selected>Orange</option>
+    <option value="banana">Banana</option>
+    <option value="lichi">Lichi</option>
+    <option value="coconut">Coconut</option>
+</select>
+<br><br>
+
+<textarea cols="60" rows="10" placeholder="enter your msg here"></textarea>
+<br><br>
+
+<p style="background-color: rgb(78, 11, 22); text-align: center; color: rgb(20, 240, 31); font-size: 30px;">new form </p>
+
+<br><br>
+
+<form action="#" method="POST">
+    <h2>letters</h2>
+    <input type="text" list="goru">
+    <datalist id="goru">
+        <option value="a"></option>
+        <option value="b"></option>
+        <option value="c"></option>
+        <option value="d"></option>
+        <option value="e"></option>
+    </datalist>
+
+</form>
+
+<br><br>
+
+POST METHOD
+<form action="#" method="POST">
+Name:
+<input name="username" type="text" placeholder="enter your name">
+<br>
+Password:
+<input name="pass" type="password" placeholder="enter password">
+<br>
+<input type="submit" value="send">
+
+<br><br><br><br>
+</form>
+
+<br><br>
+<br><br>
+
+GET METHOD
+<form action="#" method="GET">
+Name:
+<input name="username" type="text" placeholder="enter your name">
+<br>
+Password:
+<input name="pass" type="password" placeholder="enter password">
+<br>
+<input type="submit" value="send">
+
+</form>
+
+<br><br>
+
+<p style="background-color: rgb(78, 11, 22); text-align: center; color: rgb(20, 240, 31); font-size: 30px;">new form </p>
+
+<br><br>
+
+<form action="#" method="POST">
+    <label for="name">Name:</label>
+    <input id="name" type="text" required>
+<br><br>
+    <label for="mail">Mail:</label>
+    <input id="mail" type="email" required>
+<br><br>
+<input type="checkbox" checked> i have a car
+<input type="checkbox"> i have a bike
+<input type="checkbox"> i have a football
+<br><br>
+
+<input type="file">
+<br>
+<input type="reset">
+<br>
+<input type="number">
+<br>
+<label for="d">date:</label>
+<input id="d" type="date">
+<br>
+<label for="u">enter your website url:</label>
+<input id="u" type="url">
+<br>
+<label for="p">phone number:</label>
+<input id="p" type="tel">
+<br>
+<label for="t"> time:</label>
+<input id="t" type="time">
+<br>
+<input type="submit" value="send">
+<hr><hr>
+
+
+</form>
+
+</body>
+</html>
